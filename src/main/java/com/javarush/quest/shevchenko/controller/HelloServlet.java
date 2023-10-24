@@ -1,4 +1,4 @@
-package com.javarush.quest.shevchenko.quest;
+package com.javarush.quest.shevchenko.controller;
 
 import java.io.*;
 
