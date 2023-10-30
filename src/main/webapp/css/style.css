@@ -1,0 +1,85 @@
+.container-fluid {
+    font-family: "Bradley Hand", cursive;
+    font-weight: 1000;
+    color: Silver;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+
+
+
+html {
+    min-height: 100%;
+}
+h1 {
+    font-weight: bold;
+    text-decoration: Maroon;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.spoiler_content {
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.read-more-state {
+    display: none;
+}
+
+.text_hide {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.read-more-state:checked~.spoiler_content .text_hide {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state:checked~.spoiler_content p {
+    margin-bottom: 20px;
+}
+
+.read-more-state~.read-more-trigger:before {
+    content: 'statistics';
+}
+
+.read-more-state:checked~.read-more-trigger:before {
+    content: 'hide statistics';
+}
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #C0C0C0;
+    font-size: .9em;
+    line-height: 2;
+    border: #000000;
+    border-radius: .25em;
+    margin-bottom: 150px;
+    background: #800000;
+    box-shadow: 0 0 0 2px #000000;
+    position: absolute;
+}
+
+button.btn-primary {
+    background-color: maroon;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: silver;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+button.btn-primary:hover {
+    background-color: maroon;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: silver;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-decoration: underline;
+}
+
