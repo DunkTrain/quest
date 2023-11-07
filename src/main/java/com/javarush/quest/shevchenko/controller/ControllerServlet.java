@@ -16,7 +16,7 @@ public class ControllerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
 
-        String radio = request.getParameter("inlineRadioOptions");
+        String radio = request.getParameter("startRadioOptions");
         if (radio == null) request.getRequestDispatcher("/quest.jsp").forward(request, response);
         else {
             Repository repository = (Repository) session.getAttribute("repository");

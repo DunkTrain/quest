@@ -31,7 +31,7 @@
             <div class="form-group">
                 <label class="col-md-4 control-label" for="name"></label>
                 <div class="col text-center">
-                    <input autocomplete="anon" id="name" name="name" type="text" placeholder="Введите имя" class="form-control input-md">
+                    <input autocomplete="anon" id="name" name="name" type="text" placeholder="your name..." class="form-control input-md" style="width: 200px; margin: 0 auto;">
                 </div>
             </div>
 
@@ -42,6 +42,8 @@
                     <button id="" name="" class="btn btn-primary">start</button>
                 </div>
             </div>
+
+
         </fieldset>
     </form>
 </div>

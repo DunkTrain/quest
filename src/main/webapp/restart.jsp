@@ -13,7 +13,7 @@
 <div class="container-fluid">
     <br>
     <br>
-    <h1 class="text-center" style="${sessionScope.result ? 'color: green;' : 'color: red;'}">${sessionScope.result ? 'Победа' : 'Поражение'} </h1>
+    <h1 class="text-center">${sessionScope.result ? "Победа" : "Поражение"} </h1>
     <br>
     <p class="text-center">${sessionScope.outcome} </p>
 
@@ -31,3 +31,5 @@
 
 </body>
 </html>
+
+
