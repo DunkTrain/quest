@@ -8,7 +8,6 @@ import jakarta.servlet.annotation.*;
 
 @WebServlet(name = "StartGameServlet", value = "/start")
 public class StartGameServlet extends HttpServlet {
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();

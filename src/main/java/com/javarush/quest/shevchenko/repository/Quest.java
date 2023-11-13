@@ -8,14 +8,11 @@ import com.javarush.quest.shevchenko.model.Question;
 import java.util.ArrayList;
 
 public class Quest {
-
     private int id = 0;
     private Question question = new Question();
     private Option option = new Option();
     private Answer answer = new Answer();
     private Outcome outcome = new Outcome();
-
-
     public int getId() {
         return id;
     }
@@ -43,5 +40,4 @@ public class Quest {
     public int getQuestionNumber() {
         return id + 1;
     }
-
 }

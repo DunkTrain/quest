@@ -7,11 +7,9 @@ public class Question {
     public Question() {
         getQuestions();
     }
-
     public ArrayList<String> getList() {
         return questions;
     }
-
     public void getQuestions() {
         questions.add("Ты всегда мечтал покорять бесконечные горизонты вселенной. Принять вызов судьбы?");
         questions.add("Ты принял вызов судьбы. Капитан предлагает подняться тебе на борт корабля. Твои действия");

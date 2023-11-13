@@ -82,12 +82,10 @@ button.btn-primary:hover {
     text-decoration: underline;
 }
 
-/* Общие стили для всех радиокнопок и меток */
 input[type='radio'], .custom-radio label {
     cursor: pointer;
 }
 
-/* Стили для кастомных радиокнопок */
 .custom-radio input[type='radio'] {
     position: relative;
     height: 22px;
