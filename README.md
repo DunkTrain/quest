@@ -19,7 +19,6 @@ To run the application, you will need:
 2. A servlet container supporting servlets (e.g., Apache Tomcat).
 
 After downloading and setting up the environment, follow these steps:
-
 1. Clone the repository to your local machine.
 2. Deploy the application to your servlet container.
 3. Open a web browser and navigate to your servlet container's URL.
@@ -47,7 +46,6 @@ After downloading and setting up the environment, follow these steps:
 2. Контейнер сервлетов, поддерживающий сервлеты (например, Apache Tomcat).
 
 После загрузки и настройки среды выполните следующие шаги:
-
 1. Клонируйте репозиторий на свой локальный компьютер.
 2. Разверните приложение на контейнере сервлетов.
 3. Откройте веб-браузер и перейдите по URL вашего контейнера сервлетов.
